@@ -1,0 +1,95 @@
+#include <stdio.h>
+
+int main()
+{
+	int
+}
+
+/*
+int main ()
+{
+	int num1,num2,x;
+	printf("Primer numero:");
+	scanf("%d", &num1);
+	
+	printf("Segundo numero:");
+	scanf("%d", &num2);
+	
+	if (num1>num2)
+	{
+		printf("Valores incorrectos");
+	}
+	else
+	{
+		for (x=num1;x<=num2;x++)
+			if (x%2==0)
+			printf("%d\n", x);
+	}
+	return 0;
+}
+
+
+/*
+int main()
+{
+	float num,i,suma=0,cantidad;
+	
+	printf("# valores a calcular promedio:");
+	scanf("%f", &num);
+	
+	for (i=1;i<=num;i++)
+	{
+		printf("Numero:");
+		scanf("%f",&cantidad);
+		suma=suma+cantidad;
+	}
+	suma=suma/num;
+	printf("%.2f", suma);
+	return 0;
+}
+
+/*
+int main()
+{
+	int x=0,y=1,z,cont,a;
+	printf("Digite hasta que numero le gustaria la serie:");
+	scanf("%d", &a);
+	
+	printf("0\n");
+	
+	for(cont=0;cont<=a;cont++)
+	{
+		z=x+y;
+		printf("%d\n",z);
+		x=y;
+		y=z;
+	}
+	return 0;
+}
+
+
+/*
+int main ()
+{
+	int x;
+	int sum=0;
+	for (x=1;x<=100;x++)
+	{
+		if (x%2==0)
+		{
+			printf("%d\n", x);
+			sum+=x;
+		}
+	}
+	printf("Suma de numeros pares: %d\n", sum);
+}
+/*
+int main ()
+{
+	int x;
+	for (x=1;x<100;x++)
+	{
+		printf("%d\n",x);
+	}
+	return 0;
+}*/
