@@ -1,0 +1,51 @@
+#include <stdio.h>
+
+int main ()
+{
+	
+int a;
+int letreros=0,num=0;
+
+printf("Digite 1 para For\n Digite 2 para Do\n Digite 3 para While\n");
+scanf("%d", &a);
+
+if (a=3)
+{
+	printf("Numero de letreros:");
+	scanf("%d", &letreros);
+	
+	while(num<letreros)
+	{
+		printf("Hola Mundo\n");
+		num++;
+	}
+	return 0;
+}
+
+if (a=2)
+{
+	printf("Numero de letreros:");
+	scanf("%d", &letreros);
+	
+	do 
+	{
+		printf("Hola Mundo\n");
+		num++;
+	}
+	while (num<letreros);
+	return 0;
+}
+
+if (a=3)
+{
+	printf("Numero de letreros:");
+	scanf("%d", &letreros);
+	
+	for(num=0;num<=letreros;num++)
+	{
+		printf("Hola Mundo\n");
+	}
+	return 0;
+}
+return 0;
+}
